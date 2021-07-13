@@ -1,0 +1,39 @@
+			GENTRACK MAZE
+
+Author: Noemi Scherer
+
+The Gentrack Maze was written in Java using Eclipse IDE, and the Windows System.
+The code is composing by two classes:
+	- Maze.java (main and executable)
+	- MazeResolution.java
+All classes are inside the 'maze' package.
+
+There are two ways to execute the code on Windows
+1. Using the Eclipse IDE
+   - Compile and Execute the main class (Maze.java)
+
+2. Using Windows prompt
+   - Open the prompt
+   - Access the project directory (using cd)
+	- cd Gentrack_Maze_Technical_Test
+	- cd GentrackMaze
+	- cd bin
+    - To execute
+	- java maze.Maze (because the main source it's into the maze package)
+
+After executing the code, will be necessary to enter the destination and name of the file that contains the Maze data
+    - My test files are saved in the following destination on my computer: 
+      "D:\Noemi\Projects\Gentrack_Maze_Technical_Test\Samples\"
+      And I would open the 'input.txt' file.
+    - So to access the right file, it should be written:
+      "D:\\Noemi\\Projects\\Gentrack_Maze_Technical_Test\\Samples\\input.txt"
+
+The result will be shown on the terminal
+
+------------------------------------------------------------------------------------------------------------------------
+
+To compile in Linux System using terminal
+1. Access the directory where is Maze.java (GentrackMaze\src\maze)
+2. To compile> javac Maze.java
+3. To execute> java Maze
+
