@@ -7,10 +7,7 @@ a file and the program must read in the file, solve the maze and output the solu
 
 The program should be written to the following specification:
 
-  - The program must be written in Java or C#
-  - It can be assumed that the input file will always follow the guidelines provided in the "Maze input/output formats" section
-    (no validation is necessary)
-  - Maze outputs should be written to the console as per the "Maze input/output formats" guidelines
+   - Maze outputs should be written to the console as per the "Maze input/output formats" guidelines
   - If there is no possible solution to the maze the output should indicate this somehow
   - Arbitrary sized mazes should be handled
   - The program should allow all valid movements as per the "Movement" guidelines
